@@ -1,4 +1,4 @@
-Smart Meal Kit System is a web-based food ordering platform that allows users to browse and order meal kits based on their dietary preferences and allergy information.
+NUTRIPLAN+ or Smart Meal Kit System is a web-based food ordering platform that allows users to browse and order meal kits based on their dietary preferences and allergy information.
 
 Unlike a traditional ordering system, this project introduces a personalized meal filtering system that improves user safety and experience by only displaying suitable food options.
 
