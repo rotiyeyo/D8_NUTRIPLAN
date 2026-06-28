@@ -1,0 +1,35 @@
+1. The Intent
+What specific problem were you trying to solve with AI?
+
+I encountered several PHP errors while developing the cart page of my SMART MEAL KIT web application. 
+The errors included undefined session variables, undefined variables ($cart and $row), and difficulties displaying
+food images stored as LONGBLOB in the MySQL database. I also needed guidance on displaying the food name and quantity on the cart page.
+
+2. The Interaction (Prompting)
+What was your primary prompt, and did you have to refine it?
+
+My initial prompts were:
+"What does this PHP warning mean?"
+"How do I fetch an image from the database?"
+"How do I display a LONGBLOB image using PHP?"
+"Why is my $cart variable undefined?"
+"How can I fetch the food name from the database and display it together with the quantity?"
+
+After receiving the explanations, I refined my prompts by sharing my PHP source code and screenshots
+of the errors so that the AI could provide more accurate debugging suggestions based on my project.
+
+3. The Output & Verification
+Did the AI provide working code? How did you test/verify it?
+
+The AI explained the causes of the PHP errors and provided example code for handling PHP sessions, displaying images stored as LONGBLOB,
+and retrieving food information from the database. I tested each suggestion by running the project using XAMPP, refreshing the cart page, and
+checking whether the PHP warnings disappeared and whether the food image and details were displayed correctly. I also verified the output using
+phpMyAdmin and browser testing.
+
+4. Human Refinement
+What changes did YOU make to the AI's code to make it fit your specific project?
+
+I modified the AI-generated examples to match my project's database structure, table names, and column names. I integrated the code
+into my existing cart.php file, adjusted the session variable names, updated the SQL queries, and modified the HTML layout and CSS styling
+so that the food image, food name, and quantity matched the design of my SMART MEAL KIT web application. I also tested and corrected the code
+until it functioned correctly within my project.
