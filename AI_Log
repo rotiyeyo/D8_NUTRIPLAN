@@ -1,35 +1,88 @@
-1. The Intent
-What specific problem were you trying to solve with AI?
+AI_LOG 1
+Project Component: User Authentication Sign In
 
-I encountered several PHP errors while developing the cart page of my SMART MEAL KIT web application. 
-The errors included undefined session variables, undefined variables ($cart and $row), and difficulties displaying
-food images stored as LONGBLOB in the MySQL database. I also needed guidance on displaying the food name and quantity on the cart page.
+AI Tool Used: Chatgpt (OpenAI)
 
-2. The Interaction (Prompting)
-What was your primary prompt, and did you have to refine it?
+1. The intent To obtain guidance on developing the user authentication module, including
+   customer registration, login validation, session handling, and password reset functionality
+   using PHP and MySQL.
 
-My initial prompts were:
-"What does this PHP warning mean?"
-"How do I fetch an image from the database?"
-"How do I display a LONGBLOB image using PHP?"
-"Why is my $cart variable undefined?"
-"How can I fetch the food name from the database and display it together with the quantity?"
+2. The Interaction (Prompting) Initially, I requested a basic PHP login and registration system.
+   After reviewing the generated code, I refined the prompts to suit the NutriPlan+ project by
+   requesting customer-specific fields, session management, and integration with my existing database tables.
 
-After receiving the explanations, I refined my prompts by sharing my PHP source code and screenshots
-of the errors so that the AI could provide more accurate debugging suggestions based on my project.
+3. The Output & Verification The AI generated functional PHP code. The implementation was
+   tested using XAMPP by registering multiple user accounts, logging in with valid and invalid credentials,
+   and resetting passwords. Errors were corrected through testing until all functions worked correctly.
 
-3. The Output & Verification
-Did the AI provide working code? How did you test/verify it?
+4. Human Refinement I modified the generated code by changing variable names, 
+   table names, SQL queries, page navigation, alert messages, and session variables
+   to match the NutriPlan+ database structure and system requirements.
 
-The AI explained the causes of the PHP errors and provided example code for handling PHP sessions, displaying images stored as LONGBLOB,
-and retrieving food information from the database. I tested each suggestion by running the project using XAMPP, refreshing the cart page, and
-checking whether the PHP warnings disappeared and whether the food image and details were displayed correctly. I also verified the output using
-phpMyAdmin and browser testing.
+AI_LOG 2
+Project Component: Meal Recommendation & Food Preference
 
-4. Human Refinement
-What changes did YOU make to the AI's code to make it fit your specific project?
+AI Tool Used: ChatGPT (OpenAI)
 
-I modified the AI-generated examples to match my project's database structure, table names, and column names. I integrated the code
-into my existing cart.php file, adjusted the session variable names, updated the SQL queries, and modified the HTML layout and CSS styling
-so that the food image, food name, and quantity matched the design of my SMART MEAL KIT web application. I also tested and corrected the code
-until it functioned correctly within my project.
+1. The Intent To develop meal recommendation logic based on customers'
+   dietary preferences and food allergies.
+
+2. The Interaction (Prompting) I first requested a simple filtering method. Later,
+   I refined the prompt to include filtering using customer preference and allergy
+   tables stored in the database.
+
+3. The Output & Verification The generated SQL queries successfully filtered meals according to customer preferences.
+   The results were verified by creating different customer profiles with various preferences and allergies.
+
+4. Human Refinement I adjusted the SQL statements, database relationships, and page flow
+   to ensure compatibility with my own database schema and user interface.
+
+AI_LOG3
+Project Component: Shopping Cart & Checkout
+
+AI Tool Used: ChatGPT (OpenAI)
+
+1. The Intent To implement a shopping cart using PHP sessions and develop the checkout process.
+
+2. The Interaction (Prompting) I requested assistance in storing multiple cart items using PHP sessions and later
+   refined the prompts to include quantity updates, subtotal calculations, and order insertion into the database.
+
+3. The Output & Verification The generated code was tested by adding multiple menu items,
+   updating quantities, calculating totals, and placing orders. The checkout process was verified by checking data stored in the database.
+
+4. Human Refinement I modified the checkout workflow, payment options, customer 
+   information update process, and order summary to suit the NutriPlan+ requirements.
+
+AI_LOG4
+Project Component: User Interface (CSS & Layout)
+
+AI Tool Used: ChatGPT (OpenAI)
+
+1. The Intent To improve the visual design and consistency of the NutriPlan+ user interface
+   using CSS.
+
+2. The Interaction (Prompting) I requested assistance in designing responsive layouts for
+   multiple pages and later refined the prompts to match the project's colour scheme and branding.
+
+3. The Output & Verification The generated CSS layouts were tested on different pages and
+   adjusted until the interface displayed correctly across the system.
+
+4. Human Refinement I customised colours, fonts, spacing, page layouts, buttons, navigation
+   bars, and responsive elements to maintain a consistent design throughout the project.
+
+AI_LOG5
+Project Component: Database Design & SQL Queries
+
+AI Tool Used: ChatGPT (OpenAI)
+
+1. The Intent To obtain guidance on designing the database structure and writing SQL queries
+   for the NutriPlan+ system.
+
+2. The Interaction (Prompting) I initially requested a basic database design and later refined the
+   prompts to include customer preferences, allergies, menu management, and order processing.
+
+3. The Output & Verification The generated SQL structure and queries were tested using phpMyAdmin.
+   Relationships between tables and data retrieval were verified throughout system development.
+
+4. Human Refinement I adjusted table structures, foreign key relationships, attribute names,
+   and SQL queries to fit the final NutriPlan+ database and application requirements.
